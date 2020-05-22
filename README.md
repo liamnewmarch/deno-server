@@ -1,6 +1,6 @@
 # Deno server 🦕
 
-Deno server is a lightweight content server framework for [Deno](https://deno.land). It supports:
+Deno server is a lightweight content server framework for [Deno][deno]. It supports:
 
 * Regular expression URL matching.
 * Static and dynamic handlers.
@@ -11,8 +11,12 @@ The project is still under development and its API will probably change, but you
 
 ## Third-party dependencies
 
-* [mime-db](https://unpkg.com/browse/mime-db@1.44.0/) for serving files with the correct Content-Type.
+* [mime-db][mime-db] for serving files with the correct Content-Type.
 
 The example project also depends on:
 
-* [marked](https://unpkg.com/marked@1.0.0/lib/marked.esm.js) for parsing Markdown files.
+* [marked][marked] for parsing Markdown files.
+
+[deno]: https://deno.land
+[mime-db]: https://unpkg.com/browse/mime-db@1.44.0/
+[marked]: https://unpkg.com/browse/marked@1.0.0/
