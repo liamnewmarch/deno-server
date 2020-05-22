@@ -23,4 +23,4 @@ EXPOSE $PORT
 WORKDIR /app/
 COPY . ./
 
-CMD ["deno", "run", "-A", "/app/src/index.ts"]
+CMD ["deno", "run", "-A", "/app/example/server.ts"]
