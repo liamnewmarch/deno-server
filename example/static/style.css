@@ -1,0 +1,30 @@
+:root {
+  --color-black: #272822;
+  --color-white: #fff;
+
+  --theme-text: var(--color-black);
+  --theme-background: var(--color-white);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --theme-text: var(--color-white);
+    --theme-background: var(--color-black);
+  }
+}
+
+html {
+  background-color: var(--theme-background);
+  color: var(--theme-text);
+  font-family: sans-serif;
+}
+
+body {
+  margin: auto;
+  max-width: 40rem;
+  padding: 1rem;
+}
+
+a {
+  color: inherit;
+}
