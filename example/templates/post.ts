@@ -1,4 +1,4 @@
-import { Context } from "../src/pages.ts";
+import { Context } from "../../pages.ts";
 import base from "./base.ts";
 
 interface PostContext extends Context {

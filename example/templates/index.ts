@@ -1,4 +1,4 @@
-import { Context, PageFinal } from "../src/pages.ts";
+import { Context, PageFinal } from "../../pages.ts";
 import base from "./base.ts";
 
 interface IndexContext extends Context {

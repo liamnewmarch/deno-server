@@ -1,5 +1,5 @@
 import marked from "https://unpkg.com/marked@1.0.0/lib/marked.esm.js";
-import { Page } from "../src/pages.ts";
+import { Page } from "../../pages.ts";
 import template from "../templates/post.ts";
 
 async function getPost(path: string): Promise<string> {

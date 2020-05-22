@@ -1,4 +1,4 @@
-import { Context } from "../src/pages.ts";
+import { Context } from "../../pages.ts";
 
 interface BaseContext extends Context {
   body: string;

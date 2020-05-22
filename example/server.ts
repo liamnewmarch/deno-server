@@ -1,5 +1,5 @@
-import { URLHandlerMap, listen } from "./src/mod.ts";
-import { contentRoute, staticRoute } from "./src/helpers.ts";
+import { URLHandlerMap, listen } from "../mod.ts";
+import { contentRoute, staticRoute } from "../helpers.ts";
 import IndexRoute from "./content/index.ts";
 
 const hostname: string = Deno.env.get("HOST") ?? "0.0.0.0";
